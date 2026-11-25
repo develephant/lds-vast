@@ -1,0 +1,11 @@
+# Secrets never ride the image or the repo
+.env
+.env.*
+*.key
+*.pem
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+*.swp
+*~
